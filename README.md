@@ -37,7 +37,7 @@ The application OceanBattery is aimed at providing the user with an overview of 
 <p align="justify">There are two available options to run the OceanBattery application. The first option is to have MATLAB installed (provided a license is available) and the second option is to use the standalone version of the application which requires downloading the MATLAB runtime software which does not require any license. The first option permits access to the application's source code, allowing the user to modify it, whereas the second option does not provide this capability.</p>
 
 ### 2.1 Requirements
-The following programs/files are required, which can be downloaded from WEBSITE(GitHub):
+The following programs/files are required, which can be downloaded from this [Link](https://github.com/AndreasAsiikkis/OceanBattery):
 
 #### 2.1.1 With MATLAB license
 - MATLAB R2022b or later
