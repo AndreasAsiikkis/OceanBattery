@@ -10,6 +10,7 @@
 
 ## Code Developed by
 - Jimme Bromlewe (Ocean Battery source code)
+- Robbert Nienhuis (Ocean Battery source code)
 - Lars Hof (OceanBattery application development)
 
 
