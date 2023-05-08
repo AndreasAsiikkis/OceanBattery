@@ -35,14 +35,14 @@ The application OceanBattery is aimed at providing the user with an overview of 
 
 
 ## 2. Installation
-<p align="justify">There are two available options to run the OceanBattery application. The first option is to have MATLAB installed (provided a license is available) and the second option is to use the standalone version of the application which requires downloading the MATLAB runtime software which does not require any license. The first option permits access to the application's source code, allowing the user to modify it, whereas the second option does not provide this capability.</p>
+<p align="justify">There are two available options to run the OceanBattery application. The first option (recommended) is to have MATLAB installed (provided a license is available) and the second option is to use the standalone version of the application which requires downloading the MATLAB runtime software which does not require any license. The first option permits access to the application's source code, allowing the user to modify it, whereas the second option does not provide this capability.</p>
 
 ### 2.1 Requirements
 The following programs/files are required, which can be downloaded from this [Link](https://github.com/AndreasAsiikkis/OceanBattery):
 
 #### 2.1.1 With MATLAB license
 - MATLAB R2022b or later
-- A folder called "OceanBattery" that contains the following:
+- A folder called "OceanBatteryWithMatlab" that contains the following:
   - The file OceanBattery.mlapp
   - A folder called "functions" containing all the following .m files:
     - Charging.m
@@ -67,6 +67,19 @@ The following programs/files are required, which can be downloaded from this [Li
     - OB_parameters.m
     - Turbine_unit_loss.m
     - Water_level_rigid_reservoir.m
+  - A folder called "efficiency" containing all the following .m files:
+    - Analytical_Discharging.m
+    - bf.m
+    - fzero_2.m
+    - P1_Losses_prototype.m
+    - P2_Major_HL.m
+    - P3_Minor_HL1.m
+    - P4_Minor_HL2.m
+    - P5_Minor_HL3.m
+    - P6_FF.m
+    - P9_VRIGID_Full.m
+    - P9_VRIGID_Proto.m
+    - Data_raw.xlsx
   - A folder called "images", containing all the following images:
     - inlet.png
     - turbine.png
@@ -89,11 +102,11 @@ The following programs/files are required, which can be downloaded from this [Li
 
 
 #### 2.1.2. Without MATLAB license, 1st option
-- OceanBattery.exe (836 MB) which can be found in the folder StandaloneWithMatlabRuntime. Requires installation by double-clicking the OceanBattery.exe and following the steps.
+- OceanBattery.exe (24 MB) which can be found in the folder StandaloneWithMatlabRuntime after unzipping all the files in this directory. Requires installation by double-clicking the OceanBattery.exe and following the steps.
 
 #### 2.1.3. Without MATLAB license, 2nd option
 - MATLAB Runtime Version 9.13 (3.8 GB). Can be downloaded from the following link https://www.mathworks.com/products/compiler/mcr/index.html.
-- OceanBattery.exe (4.10 MB)
+- OceanBattery.exe (21 MB)
 
 
 
