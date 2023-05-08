@@ -289,6 +289,7 @@ end
 ylabel('Power of the generator [W]')
 
 %% Roundtrip efficiency calculation
-N_roundtrip = E_elec_out_J/E_elec_in_J;
+Analytical_Discharging;
+N_roundtrip = n_Total;
 
 end
